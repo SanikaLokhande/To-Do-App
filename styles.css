@@ -1,0 +1,106 @@
+body {
+  background-color: #0078d4;
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2e2e2e;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  text-align: center;
+  font-size: 130%;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 500px;
+  min-width: 250px;
+  background: #ffffff;
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.heading h1 {
+  padding: 0.3rem 1.2rem;
+  border-radius: 12px;
+  background-color: #0078d4;
+  color: #ffffff;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border: solid 2px #0078d4;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #333333;
+  width: 70%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  outline: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  background-color: #0078d4;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+button span {
+  background: #ffffff;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid #0078d4;
+  color: #0078d4;
+  font-weight: 500;
+}
+
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.6rem;
+  cursor: pointer;
+  border-bottom: 1px solid #e5e5e5;
+  transition: background-color 0.2s ease;
+}
+
+li:hover {
+  background-color: #f9fafb;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+  color: #f9f9f9;
+}
